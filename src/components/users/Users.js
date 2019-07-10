@@ -20,9 +20,10 @@ class Users extends Component {
     };
 
     render() {
+        const { users } = this.state;
         return (
             <div style={userStyle}>
-                {this.state.users.map(user => (
+                {users.map(user => (
                     <UserItem key={user.id} user={user} />
                 ))}
             </div>
