@@ -5,7 +5,7 @@ import RepoItem from './RepoItem';
 const Repos = ({ repos }) =>
     repos.map(repo => <RepoItem repo={repo} key={repo.id} />);
 
-Repos.PropTypes = {
+Repos.propTypes = {
     repos: PropTypes.array.isRequired,
 };
 
