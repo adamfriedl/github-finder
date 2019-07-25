@@ -13,7 +13,6 @@
 
 # deployment
 /.netlify
-netlify.toml
 
 # misc
 .DS_Store
